@@ -1,0 +1,19 @@
+<app-game-control (incrementNumberEvent)="onIncrementNumberEvent($event)"></app-game-control>
+
+<div>
+    <p>Even Numbers</p>
+</div>
+<div *ngFor="let number of oddNumbers" class="row">
+    <div class="card col-12">
+        <app-even [evenNumber]="number"></app-even>
+    </div>
+</div>
+
+<div>
+    <p>Odd Numbers</p>
+</div>
+<div *ngFor="let number of evenNumbers" class="row">
+    <div class="card col-12">
+        <app-odd [oddNumber]="number"></app-odd>
+    </div>
+</div>

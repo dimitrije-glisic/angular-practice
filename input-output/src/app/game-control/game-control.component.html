@@ -1,0 +1,21 @@
+<div class="row">
+
+    <div class="card col-12">
+        <p *ngIf="gameStarted">Game started!</p>
+        <p *ngIf="!gameStarted">Game stopped!</p>
+    </div>
+
+    <div class="col-12">
+        <p>Game Control</p>
+    </div>
+
+    <div class="col-12">
+        <button class="btn btn-primary green" style="color: aqua;" (click)="onStartGame()">Start Game</button>
+    </div>
+
+    <div class="col-12 red">
+        <button class="btn btn-primary" style="color: red;" (click)="onStopGame()">Stop Game</button>
+    </div>
+
+
+</div>
