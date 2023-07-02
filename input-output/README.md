@@ -3,8 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ##   Start app
-npm install
-ng serve
+npm install; ng serve
 
 ## Development server
 
